@@ -1,0 +1,335 @@
+@media screen and (max-width: 1800px) {
+	*{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	}
+	.head{
+		width: 100%;
+		height: 65px;
+	}
+	.header{
+		width: 1254px;
+		margin: 0 auto;
+		height: 64px;
+		position:relative;
+	}
+	.l1 ul{
+		height: 100%;
+		overflow: auto;
+		margin-left: 20px;
+		float: left;
+	}
+	.l1 ul li{
+		height: 100%;
+		font-size: 14px;
+		line-height: 4.2;
+		margin: 0px 10px;
+		font-weight: bold;
+		float: left;
+	}
+	.logo{
+		width: 130px;
+		height: 100%;
+		position: absolute;
+		left: 45%;
+	}
+	.logo img{
+		width: 100%;
+		height: auto;
+		margin-top: 15px;
+	}
+	.ss{
+		width: 40px;
+		height: 100%;
+		margin-right: 30px;
+		float: right;
+	}
+	.ss img{
+		width: 25px;
+		height: auto;
+		margin-top: 20px;
+		float: right;
+	}
+	.l2 ul{
+		height: 100%;
+		overflow: auto;
+		float: right;
+	}
+	.l2 ul li{
+		height: 100%;
+		font-size: 14px;
+		line-height: 4.2;
+		font-weight: bold;
+		margin: 0px 10px;
+		float: right;
+	}
+	.middle{
+		width: 100%;
+	}
+	.tp11{
+		width: 1440px;
+		margin: 0 auto;
+		position: relative;
+	}
+	.tp11 img{
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+	.lj11{
+		height: 36px;
+		float: left;
+		position: absolute;
+		top:75%;
+		left: 56.5%;
+	}
+
+	.lj11 ul{
+		height: 100%;
+	}
+	.lj11 ul li{
+		float: left;
+		height: 100%;
+		margin-left: 10px;
+	}
+	.lj11 ul li button{
+		height: 100%;
+		padding: 0px 20px;
+	}
+	.tp12{
+		width: 100%;
+		position: relative;
+	}
+	.tp12 img{
+		width: 100%;
+		height: auto;
+		display: none;
+	}
+	.lj12{
+		height: 36px;
+		float: left;
+		position: absolute;
+		top:88%;
+		left: 23.5%;
+		display: none;
+	}
+
+	.lj12 ul{
+		height: 100%;
+	}
+	.lj12 ul li{
+		float: left;
+		height: 100%;
+		margin-left: 10px;
+	}
+	.lj12 ul li button{
+		height: 100%;
+		padding: 0px 20px;
+	}
+	.tp21{
+		width: 1440px;
+		margin: 0 auto;
+		position: relative;
+	}
+	.tp21 img{
+		width: 100%;
+		height: auto;
+		display: block;
+	}
+	.tp22{
+		width: 100%;
+		position: relative;
+	}
+	.tp22 img{
+		width: 100%;
+		height: auto;
+		display: none;
+	}
+	.m3{
+		width: 1440px;
+		margin: 0 auto;
+	}
+	.js31{
+		width: 42%;
+		float: left;
+	}
+	.jswz1{
+		margin-left: 8%;
+		margin-right: 3%;
+		margin-top: 25%;
+		font-weight: bold;
+		line-height: 1.8;
+		font-size: 36px;
+	}
+	.jswz2{
+		margin-left: 8%;
+		margin-right: 3%;
+		margin-top: 25px;
+		font-size: 15px;
+	}
+	.ljgd1{
+		margin-left: 8%;
+		margin-right: 3%;
+		margin-top: 35px;
+	}
+	.a5{
+		border: 2px solid;
+	}
+	.tp32{
+		width: 100%;
+	}
+	.tp32 img{
+		width: 100%;
+		height: auto;
+		display: none;
+	}
+	.tp31{
+		width: 58%;
+		float: left;
+	}
+	.tp31 img{
+		width: 100%;
+		height: auto;
+	}
+	.m4{
+		width: 1440px;
+		margin: 0 auto;
+	}
+	.m4 img{
+		width: 100%;
+		height: auto;
+	}
+}
+@media screen and (max-width: 1440px) {
+	.tp11{
+		width: 100%;
+	}
+	.tp21{
+		width: 100%;
+	}
+	.m3{
+		width: 100%;
+	}
+	.m4{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1254px) {
+	.header{
+		width: 100%;
+	}
+	.l1 ul li{
+		height: 100%;
+		font-size: 12px;
+		line-height: 4.6;
+		margin: 0px 10px;
+		float: left;
+	}
+	.l2 ul li{
+		height: 100%;
+		font-size: 12px;
+		line-height: 4.6;
+		margin: 0px 10px;
+		float: left;
+	}
+	.jswz1{
+		line-height: 1.8;
+		font-size: 24px;
+	}
+	.a5{
+		border: 2px solid;
+	}
+}
+@media screen and (max-width: 1028px) {
+	.logo{
+		left: 45%;
+	}
+	.l1 ul{
+		display: none;
+	}
+	.l2 ul{
+		display: none;
+	}
+	.ss{
+		display: none;
+	}
+}
+@media screen and (max-width: 768px) {
+	.tp11 img{
+		display: none;
+	}
+	.tp12 img{
+		display: block;
+	}
+	.tp21 img{
+		display: none;
+	}
+	.tp22 img{
+		display: block;
+	}
+	.lj11{
+		display: none;
+	}
+	.lj12{
+		display: block;
+		height: 62px;
+	}
+	.lj12 ul li button{
+		font-size: 20px;
+	}
+	.tp31 img{
+		display: none;
+		float: left;
+	}
+	.tp32 img{
+		display: block;
+		float: left;
+		margin-top: -46%;
+	}
+	.js31{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+	.jswz1{
+		margin: 0 auto;
+	}
+	.jswz2{
+		margin: 0 auto;
+		margin-top: 12px;
+	}
+	.ljgd1{
+		margin: 0 auto;
+		margin-top: 15px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.logo{
+		left: 40%;
+	}
+	.lj12{
+		height: 38px;
+		left: 21%;
+	}
+	.lj12 ul li button{
+		font-size: 16px;
+	}
+}
+@media screen and (max-width: 414px) {
+	.logo{
+		left: 35%;
+	}
+	.lj12{
+		height: 30px;
+		left: 18%;
+	}
+	.lj12 ul li button{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 350px) {
+	.lj12{
+		left: 15%;
+	}
+}
